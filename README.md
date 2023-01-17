@@ -360,7 +360,7 @@ Change the open boxes [ ] below to checked boxes [x] as you complete the tasks.
 - [X] Task 9. Explore the repo in VS Code
 - [X] Task 10. Execute a Python script.
 - [X] Task 11. Check the boxes (edit a Markdown file)
-- [] Task 12. Commit changes (with a message!) and push to GitHub
+- [X] Task 12. Commit changes (with a message!) and push to GitHub
 
 Finally - after your initial commit and push, you can check the last box. 
 Check the box, commit your changes (with a message!), and push/sync again. 
