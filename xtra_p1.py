@@ -12,7 +12,7 @@ name = "GameBot"
 # Fix the code below to print the name using an f-string
 
 print()
-print("Hello, I'm {name}, your gamebot.")
+print(f"Hello, I'm {name}, your gamebot.")
 print("Let's play an animal guessing game!")
 print("There are 3 animals: wolf, eagle, snake (a Python of course).")
 print("The wolf scares the eagle.")
@@ -44,6 +44,10 @@ print()
 # In Python, indentation is important!
 if user_choice == buddy_choice:
     print("We tied!")
+elif (user_choice, buddy_choice) in [("wolf", "eagle"),("eagle", "snake"),("snake", "wolf")]:
+    print("You win!")
+else:
+    print("I win!")
 
 
 # When you finish,

@@ -1,0 +1,68 @@
+jakieldavid@Jakiels-MacBook ~ % python3
+Python 3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import random
+>>> name="gamebot"
+>>> print()
+
+>>> print(f"Hello, Im ss2jak, your gamebot."
+... 
+... 
+... )
+Hello, Im ss2jak, your gamebot.
+>>> print("Let's play an animal guessing game!")
+Let's play an animal guessing game!
+>>> print("There are 3 animals: wolf, eagle, snake (a Python of course).")
+There are 3 animals: wolf, eagle, snake (a Python of course).
+>>> print("The wolf scares the eagle.")
+The wolf scares the eagle.
+>>> print("The eagle grabs the snake.")
+The eagle grabs the snake.
+>>> print("The snake bites the wolf.")
+The snake bites the wolf.
+>>> print("I'll pick one and you pick one and we'll see who wins.")
+I'll pick one and you pick one and we'll see who wins.
+>>> print()
+
+>>> user_choice=eagle
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'eagle' is not defined
+>>> user_choice="snake"
+>>> buddy_choice = random.choice(["wolf", "eagle", "snake"])
+>>> print()
+
+>>> print(f"You said {user_choice}.")
+You said snake.
+>>> print(f"I said {buddy_choice}.")
+I said wolf.
+>>> print()
+
+>>> if user_choice == buddy_choice:
+...     print("We tied!")
+... elif (user_choice, buddy_choice) in [("wolf", "eagle"),("eagle", "snake"),("snake", "wolf")]:
+...     print("You win!")
+... else:
+...     print("I win!")
+... 
+You win!
+>>> user_choice="wolf"
+>>> if user_choice == buddy_choice:
+...     print("We tied!")
+... elif (user_choice, buddy_choice) in [("wolf", "eagle"),("eagle", "snake"),("snake", "wolf")]:
+...     print("You win!")
+... else:
+...     print("I win!")
+... 
+We tied!
+>>> user_choice="eagle"
+>>> 
+>>> if user_choice == buddy_choice:
+...     print("We tied!")
+... elif (user_choice, buddy_choice) in [("wolf", "eagle"),("eagle", "snake"),("snake", "wolf")]:
+...     print("You win!")
+... else:
+...     print("I win!")
+... 
+I win!
+>>> 
