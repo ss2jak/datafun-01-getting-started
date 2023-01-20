@@ -2,7 +2,7 @@
 Optional bonus. See course site for details.
 
 """
-
+Jakiel David
 import random
 
 # Change the name below to a name of your choice
