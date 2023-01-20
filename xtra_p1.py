@@ -26,7 +26,7 @@ print()
 # enter wolf, eagle, or snake.
 # Hint: use the input() function
 
-user_choice = "wolf"
+user_choice = input("Pick one animal: wolf, eagle, snake")
 
 # Now the bot will pick one
 buddy_choice = random.choice(["wolf", "eagle", "snake"])
@@ -48,6 +48,7 @@ elif (user_choice, buddy_choice) in [("wolf", "eagle"),("eagle", "snake"),("snak
     print("You win!")
 else:
     print("I win!")
+
 
 
 # When you finish,
