@@ -1,0 +1,29 @@
+Output exceeds the size limit. Open the full output data in a text editor
+
+
+==============================================================
+==============================================================
+
+ Welcome!
+
+ It's 2023-01-22 at 12:43 AM
+
+ This file is running on:    posix Darwin 21.6.0
+ 
+ The Python version is:      3.11.1
+ 
+ The Python interpreter is at: 
+ /usr/local/bin/python3
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ /Library/Frameworks/Python.framework/Versions/3.11
+ 
+...
+==============================================================
+====
