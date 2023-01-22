@@ -11,7 +11,7 @@ temp1=input("what will the temperature be on friday?")
 temp2=input("what will the temperature be on saturday?")
 temp3=input("what will the temperature be on sunday?")
 
-#Assign each returned string to variable
+#Assign each variable(temp) to float
 temp1=float(temp1)
 temp2=float(temp2)
 temp3=float(temp3)
@@ -26,10 +26,9 @@ average=sum/3
 average
 
 #smallest(min) and largest(max)
-smallest=min(temps)
-largest=max(temps)
-smallest
-largest
+coldest=min(temps)
+hottest=max(temps)
+
 
 #product
 product=temp1*temp2+temp3

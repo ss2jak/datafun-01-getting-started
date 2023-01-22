@@ -1,37 +1,8 @@
 # Paste the output from a sample run here.
-%                                                                  
-jakieldavid@Jakiels-MacBook datafun-01-getting-started % /usr/local
-/bin/python3 /Users/jakieldavid/Documents/datafun-01-getting-starte
-d/user_script.py
-Temperature in Celsius: 30
-Temperature in Celsius: 27
-Temperature in Celsius: 24
-Range: 24 - 30
-Enter the temperature: 30
-Cmon lets go to the beach
-Enter 'q' to quit: 
-Enter the temperature: 20
-No beach today, water will be cold
-Enter 'q' to quit: 
-Enter the temperature: 26
-Sure about the beach today?
-Enter 'q' to quit: q
-jakieldavid@Jakiels-MacBook datafun-01-getting-started % /usr/local/bin/python3 /Users/jakieldavid/Documents/datafun-01-getting-started/use
-r_script.py
-Temperature in Celsius: 30
-Temperature in Celsius: 27
-Temperature in Celsius: 24
-Range: 24 - 30
-Enter the temperature: 30
-Cmon lets go to the beach
-Enter 'q' to quit: 
-Enter the temperature: 20
-No beach today, water will be cold
-Enter 'q' to quit: 
-Enter the temperature: 12
-No beach today, water will be cold
-Enter 'q' to quit: 
-Enter the temperature: 26
-Sure about the beach today?
-Enter 'q' to quit: q
-jakieldavid@Jakiels-MacBook datafun-01-getting-started % 
+
+range: 24.0 - 30.0
+Let's go to the beach!
+No beach today, water won't be warm enough
+Not sure about beach today
+
+
